@@ -1,0 +1,372 @@
+{
+  "topbar": {
+    "location": "Jeddah, Saudi Arabia · Open 24/7"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "logoName": "Al Jeddah Cooling Center",
+    "callNow": "Call Now",
+    "toggleMenu": "Toggle menu",
+    "language": "العربية"
+  },
+  "services": {
+    "ac": "AC Repair & Installation",
+    "washing": "Washing Machine Repair",
+    "fridge": "Refrigerator Repair",
+    "stove": "Gas Stove Repair"
+  },
+  "hero": {
+    "title": "AC, Fridge, Stove, Washing Machine Repair",
+    "subtitle": "We Fix it Fast. We Fix it Right.",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "available": "Available",
+    "yearsExp": "Years Exp.",
+    "guaranteed": "Guaranteed"
+  },
+  "about": {
+    "heading": "Fast Repair Services in Jeddah",
+    "p1": "Welcome to Al Jeddah Cooling Center, specialists in AC, washing machine, refrigerator and gas stove repair across Jeddah, with the highest levels of quality and professionalism.",
+    "p2": "We understand that a broken air conditioner or any home appliance can significantly impact your daily comfort, especially in Saudi Arabia's high temperatures. That's why we offer fast and immediate 24/7 maintenance services.",
+    "p3": "With extensive experience in professional maintenance, we carefully handle every brand and model modern and traditional. We use the latest tools to ensure accurate diagnosis and rapid repair, improving performance and extending appliance lifespan."
+  },
+  "parallax": {
+    "title": "20% OFF on 5 AC Cleaning",
+    "subtitle": "Fair prices and a guaranteed fix."
+  },
+  "ourServices": {
+    "title": "Our Services",
+    "bookNow": "Book now",
+    "ac": {
+      "title": "AC Installation & Repair",
+      "desc": "We maintain all types of air conditioners, including split air conditioners, central air conditioners, and window air conditioners. We address problems of poor cooling, water leakage, gas shortages, and electrical malfunctions to ensure the air conditioner returns to best performance."
+    },
+    "washing": {
+      "title": "Washing Machine Repair",
+      "desc": "We provide repair services for all types of washing machines, including automatic and regular washing machines, while addressing circulation, water drainage, and programming problems."
+    },
+    "fridge": {
+      "title": "Refrigerator & Freezer Repair",
+      "desc": "We service all brands and models of refrigerators and freezers fixing cooling issues, compressor problems, gas refilling, thermostat faults, and ice maker repairs to keep your food fresh."
+    },
+    "stove": {
+      "title": "Gas Stove Repair & Maintenance",
+      "desc": "We handle burner cleaning, ignition issues, gas leak detection, and full safety servicing for all types of gas stoves to ensure safe and efficient cooking."
+    }
+  },
+  "why": {
+    "title": "Why Choose Us?",
+    "desc": "We are a professional team of appliance technicians serving Jeddah. With years of hands-on experience, we provide honest pricing, quick response and quality repairs for every brand and model.",
+    "items": {
+      "i1": "24/7 emergency service call any time",
+      "i2": "Free inspection & transparent quotes",
+      "i3": "Genuine parts and warranty on repairs",
+      "i4": "Same day service across Jeddah"
+    },
+    "urgent": "Need Urgent Repair?",
+    "urgentDesc": "Don't wait our technician will reach your door fast, day or night.",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "email": "Email"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "q": "How often should I service my air conditioner?", "a": "Regular annual maintenance is recommended to ensure optimal performance and energy efficiency." },
+      { "q": "What can I do if my refrigerator is not cooling properly?", "a": "Check the temperature settings, clean the coils, and ensure proper ventilation around the device." },
+      { "q": "Is it normal for my washing machine to make unusual noises?", "a": "Unusual noises may indicate problems with the engine or bearings; consider professional inspection and repair." },
+      { "q": "Why is my gas stove burner flame uneven or yellow?", "a": "An uneven or yellow flame usually means clogged burner ports or incorrect gas to air mixture. This can affect cooking performance and may indicate a safety issue. Professional cleaning and adjustment is recommended." },
+      { "q": "How can I maintain my dryer for optimal performance?", "a": "Clean the lint filters regularly, check the vents for any blockages, and ensure proper ventilation to prevent fire hazards." },
+      { "q": "Can I fix my device myself or do I need to hire a specialist?", "a": "While simple tasks such as cleaning can be done independently, complex problems require professional expertise to avoid further damage." }
+    ]
+  },
+  "cta": {
+    "title": "Book Your Repair Today",
+    "subtitle": "Available 24 hours a day, 7 days a week",
+    "whatsapp": "WhatsApp Us"
+  },
+  "footer": {
+    "tagline": "Fast, reliable home appliance repair in Jeddah available 24/7.",
+    "services": "Services",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "location": "Jeddah, KSA"
+  },
+  "servicePage": {
+    "sameDayService": "Same Day Service",
+    "repairServices": "Repair Services",
+    "quickRepairDesc": "From quick gas refills to complete installation, we solve all AC problems.",
+    "more": "More",
+    "quickServiceHeading": "Fast Repair Services in Jeddah",
+    "quickServiceP1": "Welcome to Al Jeddah Cooling Center, specialists in AC repair in Jeddah with the highest levels of quality and professionalism.",
+    "quickServiceP2": "We understand that a broken air conditioner can significantly impact your daily comfort, especially in Saudi Arabia's high temperatures. That's why we offer fast and immediate 24/7 maintenance services.",
+    "quickServiceP3": "With extensive experience in professional maintenance, we carefully handle every brand and model modern and traditional. We use the latest tools to ensure accurate diagnosis and rapid repair, improving performance and extending AC lifespan.",
+    "bookNow": "Book Your AC Service Now",
+    "24hEmergency": "24/7 emergency service. Clear pricing. Guaranteed repair.",
+    "call": "Call",
+    "whatsapp": "WhatsApp"
+  },
+  "serviceDetails": {
+    "title": "Our Services",
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "backToServices": "Back to Services",
+    "aboutThisService": "About this service",
+    "whatServiceIncludes": "What the service includes",
+    "bookThisService": "Book this service",
+    "bookingDesc": "Same day service in Jeddah 24/7. Clear prices and guaranteed repair.",
+    "relatedServices": "Related services",
+    "otherServicesDesc": "Other services we offer within {{category}}."
+  },
+  "acFeatures": {
+    "split-window-repair": {
+      "title": "Split & Window AC Repair",
+      "desc": "Quick diagnosis and permanent repair for all brands and models.",
+      "longDesc": "Our technicians repair all types of split and window ACs from all known brands. From poor cooling and strange noises to complete breakdowns, we diagnose the problem on-site and complete most repairs the same day with genuine parts.",
+      "bullets": [
+        "All brands: LG, Samsung, Daikin, Gree, Carrier, Midea, and more",
+        "Same-day diagnosis with clear pricing before work begins",
+        "Genuine parts with service warranty"
+      ]
+    },
+    "installation-uninstallation": {
+      "title": "AC Installation & Removal",
+      "desc": "Safe, certified installation for new ACs with proper mounting.",
+      "longDesc": "Safe and certified installation of new split and window ACs with suitable wall brackets, copper piping, drainage, and electrical connections. We also perform safe transport and removal without damaging the unit.",
+      "bullets": [
+        "Strong brackets and anti-vibration bases",
+        "Vacuum and pressure test with proper gas charging",
+        "Neat arrangement of cables, pipes, and drainage"
+      ]
+    },
+    "gas-refill-leak": {
+      "title": "Gas Refill & Leak Repair",
+      "desc": "Freon refill, leak detection, and pressure testing.",
+      "longDesc": "Poor cooling is often caused by a Freon leak. We pressure-test the system, locate the leak, repair the pipe or coil, vacuum the system, and then refill with the appropriate gas (R22, R410A, or R32) per manufacturer specifications.",
+      "bullets": [
+        "Electronic leak detection",
+        "Nitrogen pressure test and vacuum",
+        "R22 / R410A / R32 gas refill"
+      ]
+    },
+    "deep-cleaning-service": {
+      "title": "Deep Cleaning & Maintenance",
+      "desc": "Coil washing, filter cleaning, and full service for better cooling.",
+      "longDesc": "Annual deep cleaning restores cooling power and reduces electricity consumption. We wash the indoor coil, clean the outdoor condenser, wash the filters, sanitize the fan, and check gas pressure.",
+      "bullets": [
+        "Indoor coil washing with chemical foam",
+        "High-pressure cleaning of outdoor condenser",
+        "Fan sanitization against bacteria"
+      ]
+    },
+    "electrical-pcb": {
+      "title": "Electrical & PCB Repair",
+      "desc": "Repair compressor, condenser, thermostat, and circuit board faults.",
+      "longDesc": "AC not working, tripping the breaker, or turning off quickly? We check the compressor, condenser, thermostat, relays, and main control board, then repair or replace the faulty part.",
+      "bullets": [
+        "Replace condenser, relays, and contactor",
+        "Repair inverter and main control board",
+        "Calibrate sensors and thermostats"
+      ]
+    },
+    "water-leakage": {
+      "title": "Water Leakage Solutions",
+      "desc": "Drain cleaning and indoor unit leak repair.",
+      "longDesc": "Water leaking from the indoor unit is often due to a clogged drain or tilted unit. We wash the drain line, remove clogs, adjust the unit level, and re-seal the drain pan to stop leaks permanently.",
+      "bullets": [
+        "Wash and unclog drain line",
+        "Re-seal drain pan",
+        "Adjust unit level for proper drainage"
+      ]
+    }
+  },
+  "washingFeatures": {
+    "drum-motor-repair": {
+      "title": "Drum & Motor Repair",
+      "desc": "Fix noisy drums, faulty motors, and replace bearings and belts for all brands.",
+      "longDesc": "Loud noise, drum not spinning, or burning smell usually indicate a motor, belt, or bearing issue. We disassemble the drum and replace bearings, seals, drive belt, then rebalance the washer.",
+      "bullets": [
+        "Replace drum bearings and seal kit",
+        "Replace drive belt and motor carbon brushes",
+        "Check drum arm and shaft"
+      ]
+    },
+    "water-inlet-drainage": {
+      "title": "Water Inlet & Drainage",
+      "desc": "Fix no-fill, no-drain, or leaks and replace the pump.",
+      "longDesc": "Washer won't fill, won't drain, or leaking from below? We check inlet valve, drain pump, hoses, and clamps and replace any faulty part to stop leaks and restore proper cycles.",
+      "bullets": [
+        "Check inlet valve and pressure switch",
+        "Replace drain pump",
+        "Fix hose and clamp leaks"
+      ]
+    },
+    "pcb-control-board": {
+      "title": "Control Board & Programming",
+      "desc": "Repair circuit board, display, and program selector switch.",
+      "longDesc": "Blank display, unresponsive buttons, error codes, or program stopping mid-cycle are all signs of a control board failure inside the washer. We thoroughly inspect the circuit board, test relays, resistors, and circuits, then repair faulty components or provide a suitable replacement board for your model. We also check the display, touch panel, program switch, and internal wiring to ensure all cycles work before leaving your home.",
+      "bullets": [
+        "Repair main control board components",
+        "Replace display and touch panel",
+        "Check program switch and internal wiring"
+      ]
+    },
+    "spin-vibration": {
+      "title": "Spin & Vibration Repair",
+      "desc": "Fix excessive vibration, no spin, and balance the drum and shock absorbers.",
+      "longDesc": "Severe vibration or no spin can damage the drum over time. We replace shocks, counterweights, and springs and balance the drum to stop vibration.",
+      "bullets": [
+        "Replace shocks and springs",
+        "Check and re-secure counterweights",
+        "Adjust washer level and feet"
+      ]
+    },
+    "door-lock-seal": {
+      "title": "Door Lock & Seal",
+      "desc": "Fix door lock and replace door gasket and hinges.",
+      "longDesc": "Door won't close, cycle won't start, or water leaking from door? We replace the door lock, door gasket, and hinges for a tight, leak-free seal.",
+      "bullets": [
+        "Replace internal door lock",
+        "Install new door gasket",
+        "Fix hinges and handle"
+      ]
+    },
+    "installation-setup": {
+      "title": "Installation & Setup",
+      "desc": "Safe installation, level adjustment, water connections, and test run.",
+      "longDesc": "New washer? We unwrap it, remove shipping bolts, level the unit, connect water hoses and drain, and run a full test cycle so it's ready to use the same day.",
+      "bullets": [
+        "Remove shipping bolts and level unit",
+        "Connect water hose and drain",
+        "Test cycle and customer walkthrough"
+      ]
+    }
+  },
+  "fridgeFeatures": {
+    "cooling-issues": {
+      "title": "Cooling Issues",
+      "desc": "Fridge not cooling? Check thermostats, sensors, and cooling system.",
+      "longDesc": "If the fridge runs but doesn't cool, we check thermostats, temperature sensors, defrost system, and evaporator fan, then fix the root cause—not just the symptom.",
+      "bullets": [
+        "Calibrate thermostats and sensors",
+        "Check defrost timer and heater",
+        "Replace evaporator fan"
+      ]
+    },
+    "compressor-repair": {
+      "title": "Compressor Repair",
+      "desc": "Fix noisy compressor, starting issues, or replace compressor for all brands.",
+      "longDesc": "Loud buzzing, clicking, or fridge not running usually points to a compressor or relay issue. We check start relay, overload protector, and compressor and replace the required part with genuine components.",
+      "bullets": [
+        "Replace start relay and overload protector",
+        "Check and replace compressor",
+        "Repair inverter compressor board"
+      ]
+    },
+    "gas-refilling": {
+      "title": "Gas Refilling",
+      "desc": "Freon refill, leak detection, and pressure testing for fridges and freezers.",
+      "longDesc": "Weak cooling or warm freezer? We locate the leak, repair the line, vacuum the system, then refill with the right Freon for your fridge.",
+      "bullets": [
+        "Leak detection and pipe repair",
+        "Vacuum and pressure test",
+        "Freon refill per specifications"
+      ]
+    },
+    "freezer-ice-maker": {
+      "title": "Freezer & Ice Maker",
+      "desc": "Fix ice buildup, ice maker faults, and defrost system.",
+      "longDesc": "Ice buildup in the freezer, no ice, or water pooling at the bottom usually means a defrost or ice maker issue. We service the defrost heater, water valve, and ice maker unit.",
+      "bullets": [
+        "Defrost heater and thermostats",
+        "Ice maker unit and water valve",
+        "Door gasket and ice prevention"
+      ]
+    },
+    "water-leakage": {
+      "title": "Water Leakage",
+      "desc": "Clean drain pan, unclog drain, and replace door gasket.",
+      "longDesc": "Water on the floor or inside the fridge is often from a clogged drain or damaged door gasket. We wash the drain, clean and re-secure the drain pan, and replace the door gasket for a tight seal.",
+      "bullets": [
+        "Unclog and wash drain hole",
+        "Clean and re-secure drain pan",
+        "Replace door gasket"
+      ]
+    },
+    "electrical-pcb": {
+      "title": "Electrical & Control Board",
+      "desc": "Repair displays, control boards, and electrical faults.",
+      "longDesc": "Display not working, error codes, or flickering? We inspect the main control board, display board, and wiring to safely fix electrical issues.",
+      "bullets": [
+        "Repair control board and display",
+        "Check wiring and fuses",
+        "Service inverter board"
+      ]
+    }
+  },
+  "stoveFeatures": {
+    "burner-repair-cleaning": {
+      "title": "Burner Repair & Cleaning",
+      "desc": "Fix weak flames, clogged burners, and deep clean all stoves.",
+      "longDesc": "Weak or uneven flames are usually from clogged ports. We disassemble burners and deep clean ports and caps to restore strong, even blue flames on every burner.",
+      "bullets": [
+        "Deep clean burner head and ports",
+        "Unclog blocked flame ports",
+        "Adjust cap and crown"
+      ]
+    },
+    "ignition-spark": {
+      "title": "Ignition & Spark Issues",
+      "desc": "Fix auto-ignition, electric igniter, and switches.",
+      "longDesc": "No spark, weak spark, or constant clicking indicates an igniter, microswitch, or wiring issue. We inspect and replace the ignition module and switches for reliable one-click lighting.",
+      "bullets": [
+        "Replace ignition module",
+        "Repair microswitch and wiring",
+        "Adjust electrode gap"
+      ]
+    },
+    "gas-leak-detection": {
+      "title": "Gas Leak Detection",
+      "desc": "Safe leak detection, valve replacement, and full safety check.",
+      "longDesc": "Gas smell is an emergency. We perform a full leak check on hoses, valves, and connections and replace any faulty part, then finish with a clear safety check before leaving the site.",
+      "bullets": [
+        "Soap test and electronic leak detection",
+        "Replace valve and connections",
+        "Final pressure test and safety confirmation"
+      ]
+    },
+    "knob-valve-replacement": {
+      "title": "Knob & Valve Replacement",
+      "desc": "Fix broken knobs, stuck valves, and gas regulator.",
+      "longDesc": "Stiff or broken knobs and stuck valves are unsafe. We replace knobs, control valves, and gas regulator with brand-appropriate parts.",
+      "bullets": [
+        "Replace knobs and valves",
+        "Service gas regulator",
+        "Check smooth operation"
+      ]
+    },
+    "deep-cleaning": {
+      "title": "Deep Cleaning & Service",
+      "desc": "Deep clean the surface, grates, and burners to restore performance.",
+      "longDesc": "Full deep cleaning of surface, grates, burners, drip trays, and control panel to restore performance, appearance, and extend stove lifespan.",
+      "bullets": [
+        "Remove grease from grates and drip tray",
+        "Soak and brush-clean burners",
+        "Polish control panel"
+      ]
+    },
+    "installation-hookup": {
+      "title": "Installation & Hookup",
+      "desc": "Safe installation, gas line connection, and first run test.",
+      "longDesc": "Safe installation of new gas stoves with proper gas line connection, leak test, and first-run flame check so you can cook with confidence.",
+      "bullets": [
+        "Connect gas line with certified fittings",
+        "Full leak test",
+        "Check flame and ignition on first run"
+      ]
+    }
+  }
+}

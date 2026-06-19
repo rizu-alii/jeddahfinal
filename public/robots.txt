@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jaddahmazz.lovable.app/sitemap.xml

@@ -3,10 +3,8 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { I18nInitializer } from "@/components/I18nInitializer";
+import { TopBar } from "@/components/TopBar";
 import { nowlogo as logoAsset } from "@/lib/assets";
-
-const PHONE = "0591801214";
-const EMAIL = "kashifirshad735@gmail.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://aljeddahcoolingcenter.com"),
@@ -135,6 +133,7 @@ export default function RootLayout({
     <html lang="ar" dir="rtl" suppressHydrationWarning>
       <body>
         <I18nInitializer />
+        <TopBar />
         <Header />
         {children}
         <Footer />

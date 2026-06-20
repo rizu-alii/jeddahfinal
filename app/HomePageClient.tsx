@@ -215,10 +215,10 @@ export default function HomePageClient() {
           <p className="mx-auto mt-5 max-w-2xl text-base text-white/90 sm:text-lg md:text-xl">
             {t("hero.subtitle")}
           </p>
-          <div className="mt-10 flex flex-wrap justify-center gap-4">
+          <div className="mt-10 flex flex-col gap-3 justify-center items-center sm:flex-row sm:gap-4">
             <a
               href={`tel:${PHONE}`}
-              className="inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 font-bold shadow-lg"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-white px-6 py-3 font-bold shadow-lg"
               style={{ color: "var(--brand-primary)" }}
             ><Phone className="h-6 w-6 inline-block" /> {t("hero.call")} {PHONE}
             </a>
@@ -226,7 +226,7 @@ export default function HomePageClient() {
               href={`https://wa.me/${WHATSAPP.replace("+", "")}`}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg bg-whatsapp px-6 py-3 font-bold text-white shadow-lg transition hover:brightness-110"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-whatsapp px-6 py-3 font-bold text-white shadow-lg transition hover:brightness-110"
             >
               <WhatsAppIcon className="h-5 w-5 shrink-0" /> {t("hero.whatsapp")}
             </a>

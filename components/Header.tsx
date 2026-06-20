@@ -61,18 +61,17 @@ function ServicesDropdown() {
 
 function LanguageToggle({ className = "" }: { className?: string }) {
   const { t, i18n: i18nInstance } = useTranslation();
-  const [currentLang, setCurrentLang] = useState(() => {
-    if (typeof window !== "undefined") {
-      return getCurrentLanguage();
-    }
-    return "ar";
-  });
+  const [currentLang, setCurrentLang] = useState("ar");
+  const [isHydrated, setIsHydrated] = useState(false);
+
+  useEffect(() => {
+    setIsHydrated(true);
+    setCurrentLang(getCurrentLanguage());
+  }, []);
 
   useEffect(() => {
     const handleLangChange = () => {
-      if (typeof window !== "undefined") {
-        setCurrentLang(getCurrentLanguage());
-      }
+      setCurrentLang(getCurrentLanguage());
     };
     
     i18nInstance.on("languageChanged", handleLangChange);
@@ -82,6 +81,8 @@ function LanguageToggle({ className = "" }: { className?: string }) {
   const handleToggle = () => {
     toggleLanguage();
   };
+
+  if (!isHydrated) return null;
 
   return (
     <button

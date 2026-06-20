@@ -37,6 +37,7 @@ function HeroCarousel() {
           src={img.src}
           alt={img.alt}
           fill
+          sizes="100vw"
           className={`absolute inset-0 object-cover transition-opacity duration-700 ${idx === i ? "opacity-100 animate-[zoom_6s_linear]" : "opacity-0"}`}
           priority={idx === 0}
         />
@@ -81,6 +82,7 @@ function ScrollPopImage({ src, alt }: { src: string; alt: string }) {
         src={src}
         alt={alt}
         fill
+        sizes="(max-width: 768px) 100vw, 50vw"
         className={`object-cover transition-all ${
           visible ? "opacity-100 animate-[popIn_0.9s_ease-out_forwards]" : "opacity-0 translate-y-8 scale-90"
         }`}
@@ -134,7 +136,7 @@ function ServiceCard({ img, title, desc, to, delay = 0 }: { img: string; title: 
       style={{ transitionDelay: visible ? `${delay}ms` : "0ms" }}
     >
       <div className="h-56 w-full relative">
-        <Image src={img} alt={title} fill className="object-cover transition-transform duration-300 group-hover:scale-110" />
+        <Image src={img} alt={title} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover transition-transform duration-300 group-hover:scale-110" />
       </div>
       <div className="p-6 text-center">
         <h3 className="text-xl font-bold" style={{ color: "var(--brand-primary)" }}>
@@ -258,6 +260,7 @@ export default function HomePageClient() {
               src={technicianToolsImg.url}
               alt="Professional repair tools and equipment"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="relative z-10 rounded-3xl object-cover shadow-2xl"
             />
           </div>
@@ -390,6 +393,7 @@ export default function HomePageClient() {
               src={ac1.url}
               alt="AC technician servicing unit"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
             />
           </div>

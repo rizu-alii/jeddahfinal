@@ -1,7 +1,7 @@
 import { ac1, ac2, ac3, ac4, ac5, ac6 } from "@/lib/assets";
-import { washing1 as w1, washing2 as w2, washing3 as w3, washing4 as w4 } from "@/lib/assets";
-import { fridge1 as f1, fridge2 as f2, fridge3 as f3 } from "@/lib/assets";
-import { stove1 as s1, stove2 as s2 } from "@/lib/assets";
+import { washing1 as w1, washing2 as w2, washing3 as w3, washing4 as w4, washing5 as w5, washing6 as w6 } from "@/lib/assets";
+import { fridge1 as f1, fridge2 as f2, fridge3 as f3, fridge4 as f4, fridge5 as f5, fridge6 as f6, fridge7 as f7 } from "@/lib/assets";
+import { stove1 as s1, stove2 as s2, stove3 as s3, stove4 as s4, stove5 as s5, stove6 as s6 } from "@/lib/assets";
 
 export type Feature = {
   slug: string;
@@ -59,32 +59,32 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       {
         slug: "drum-motor-repair",
         icon: "🧺",
-        image: w1,
+        image: w5,
       },
       {
         slug: "water-inlet-drainage",
         icon: "💧",
-        image: w2,
+        image: w1,
       },
       {
         slug: "pcb-control-board",
         icon: "⚡",
-        image: w3,
+        image: w2,
       },
       {
         slug: "spin-vibration",
         icon: "🌀",
-        image: w4,
+        image: w3,
       },
       {
         slug: "door-lock-seal",
         icon: "🚪",
-        image: w1,
+        image: w4,
       },
       {
         slug: "installation-setup",
         icon: "🛠️",
-        image: w2,
+        image: w6,
       },
     ],
   },
@@ -110,17 +110,17 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       {
         slug: "freezer-ice-maker",
         icon: "❄️",
-        image: f1,
+        image: f4,
       },
       {
         slug: "water-leakage",
         icon: "🚿",
-        image: f2,
+        image: f5,
       },
       {
         slug: "electrical-pcb",
         icon: "⚡",
-        image: f3,
+        image: f7,
       },
     ],
   },
@@ -141,22 +141,22 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       {
         slug: "gas-leak-detection",
         icon: "🛡️",
-        image: s1,
+        image: s3,
       },
       {
         slug: "knob-valve-replacement",
         icon: "🛠️",
-        image: s2,
+        image: s4,
       },
       {
         slug: "deep-cleaning",
         icon: "🧽",
-        image: s1,
+        image: s5,
       },
       {
         slug: "installation-hookup",
         icon: "🏠",
-        image: s2,
+        image: s6,
       },
     ],
   },

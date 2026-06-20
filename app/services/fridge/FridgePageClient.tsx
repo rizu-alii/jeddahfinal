@@ -18,7 +18,7 @@ export default function FridgePageClient() {
     <div style={{ backgroundColor: "var(--brand-bg)", color: "var(--brand-text)" }}>
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
-        <Image src={f1.url} alt={t("services.fridge")} fill className="object-cover" priority />
+        <Image src={f1.url} alt={t("services.fridge")} fill sizes="100vw" className="object-cover" priority />
         <div className="absolute inset-0 bg-black/55" />
         <div className="relative z-10 mx-auto max-w-4xl px-4 py-20 text-center text-white">
           <span className="inline-block rounded-full bg-white/20 px-4 py-1.5 text-xs font-semibold uppercase tracking-wide backdrop-blur-sm">
@@ -51,7 +51,7 @@ export default function FridgePageClient() {
               href={`/services/fridge/${f.slug}`}
               className="relative overflow-hidden rounded-2xl shadow-md group h-80 block"
             >
-              <Image src={f.image.url} alt={t(`fridgeFeatures.${f.slug}.title`)} fill className="object-cover transition duration-500 group-hover:scale-110" />
+              <Image src={f.image.url} alt={t(`fridgeFeatures.${f.slug}.title`)} fill sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover transition duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
               <div className="absolute left-4 right-4 bottom-4 flex items-center justify-between gap-3 rounded-xl bg-white/95 px-4 py-3 shadow-lg backdrop-blur">
                 <h3 className="text-sm font-bold leading-tight" style={{ color: "var(--brand-primary)" }}>{t(`fridgeFeatures.${f.slug}.title`)}</h3>

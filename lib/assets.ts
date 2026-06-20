@@ -35,16 +35,26 @@ export const ac6 = { url: "/images/services/ac/ac6.jpeg" };
 export const fridge1 = { url: "/images/services/fridge/fridge1.jpeg" };
 export const fridge2 = { url: "/images/services/fridge/fridge2.jpeg" };
 export const fridge3 = { url: "/images/services/fridge/fridge3.jpeg" };
+export const fridge4 = { url: "/images/services/fridge/FRIDGE4.jpeg" };
+export const fridge5 = { url: "/images/services/fridge/FRIDGE5.jpeg" };
+export const fridge6 = { url: "/images/services/fridge/FRIDGE6.jpeg" };
+export const fridge7 = { url: "/images/services/fridge/fridge-repair.jpeg" };
 
 // ── Service images: Stove ──
 export const stove1 = { url: "/images/services/stove/stove1.jpeg" };
 export const stove2 = { url: "/images/services/stove/stove2.jpeg" };
+export const stove3 = { url: "/images/services/stove/stove3.jpeg" };
+export const stove4 = { url: "/images/services/stove/stove4.jpeg" };
+export const stove5 = { url: "/images/services/stove/stove5.jpeg" };
+export const stove6 = { url: "/images/services/stove/stove6.jpeg" };
 
 // ── Service images: Washing ──
 export const washing1 = { url: "/images/services/washing/washing1.jpeg" };
 export const washing2 = { url: "/images/services/washing/washing2.jpeg" };
 export const washing3 = { url: "/images/services/washing/washing3.jpeg" };
 export const washing4 = { url: "/images/services/washing/washing4.jpeg" };
+export const washing5 = { url: "/images/services/washing/drum and motor repair.jpeg" };
+export const washing6 = { url: "/images/services/washing/washing6.jpeg" };
 
 // ── Service images: Technician ──
 export const technician = { url: "/images/services/technician.png" };
